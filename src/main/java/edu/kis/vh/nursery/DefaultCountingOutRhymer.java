@@ -2,7 +2,9 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
-    private int[] numbers = new int[12];
+    public static final int maxStack = 12;
+    public static final int topStack = -1;
+    private final int[] numbers = new int[maxStack];
 
     public int getTotal() {
         return total;
