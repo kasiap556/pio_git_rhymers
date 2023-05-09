@@ -5,7 +5,7 @@ public class Node {
     private final int value;
     private Node prev;
     private Node next;
-    protected Node(int i) {
+    public Node(int i) {
         value = i;
     }
 
