@@ -1,7 +1,7 @@
 package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
-    int tableSize =12;
+    int tableSize = 12;
     private final int[] numbers = new int[tableSize];
     int returnValue =-1;
 
